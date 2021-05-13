@@ -1,1 +1,1 @@
-web: gunicorn assignmenrAPI.wsgi
+web: gunicorn assigmenrAPI.wsgi
