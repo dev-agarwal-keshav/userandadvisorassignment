@@ -109,4 +109,5 @@ class BookSerializer(serializers.ModelSerializer):
 class BookViewSerializer(serializers.ModelSerializer):
     class Meta:
         model = Booking
-        fields = ('user', 'advisor', 'date')
+        fields = ('id', 'advisor', 'date')
+        depth=1
