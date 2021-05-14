@@ -1,7 +1,7 @@
 # userandadvisorassignment
 
 After opening the file run: 
-pip install -r requirements.txt
+<br/>pip install -r requirements.txt
 python manage.py runserver
 
 On the website open the link:
